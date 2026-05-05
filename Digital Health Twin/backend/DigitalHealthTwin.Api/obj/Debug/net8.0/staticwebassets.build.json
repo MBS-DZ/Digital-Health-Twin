@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "fKLQ3R+POQqCDeI0p10QZpDsuRJlcEAfCfl7T4cKySo=",
+  "Source": "DigitalHealthTwin.Api",
+  "BasePath": "_content/DigitalHealthTwin.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

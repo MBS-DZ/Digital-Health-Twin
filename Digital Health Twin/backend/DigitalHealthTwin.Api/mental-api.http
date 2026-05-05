@@ -1,0 +1,34 @@
+@baseUrl = http://localhost:5000
+
+### Health check
+GET {{baseUrl}}/
+
+### Add stable mood
+POST {{baseUrl}}/mental/add-mood
+Content-Type: application/json
+
+{
+  "mood": "happy",
+  "stressLevel": 3,
+  "sleepHours": 7.5,
+  "notes": "Good routine today",
+  "createdAt": "2026-05-04T10:00:00Z"
+}
+
+### Add high-stress mood
+POST {{baseUrl}}/mental/add-mood
+Content-Type: application/json
+
+{
+  "mood": "stressed",
+  "stressLevel": 8,
+  "sleepHours": 5.0,
+  "notes": "Long work day",
+  "createdAt": "2026-05-04T20:00:00Z"
+}
+
+### History
+GET {{baseUrl}}/mental/history
+
+### Analyze
+POST {{baseUrl}}/mental/analyze
